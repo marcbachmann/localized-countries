@@ -1,6 +1,6 @@
 {
   "name": "localized-countries",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Country code to name mappings for several languages",
   "main": "node.js",
   "browser": "browser.js",
