@@ -1,0 +1,35 @@
+{
+  "name": "localized-countries",
+  "version": "1.0.0",
+  "description": "Country code to name mappings for several languages",
+  "main": "node.js",
+  "browser": "browser.js",
+  "scripts": {
+    "build": "./bin/build.sh",
+    "test": "standard && node test.js"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "ISC",
+  "bin": {
+    "localized-countries": "build-language-file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/localized-countries.git"
+  },
+  "keywords": [
+    "countries",
+    "country",
+    "i18n",
+    "localize",
+    "code",
+    "lookup"
+  ],
+  "bugs": {
+    "url": "https://github.com/marcbachmann/localized-countries/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/localized-countries#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
+}
