@@ -10,7 +10,7 @@ german.get('CH') // returns 'Schweiz'
 var english = require('localized-countries')('en')
 english.get('CH') // returns 'Switzerland'
 
-var japanese = require('localized-countries')('jp')
+var japanese = require('localized-countries')('ja')
 japanese.get('CH') // returns '\u30b9\u30a4\u30b9'
 ```
 
@@ -36,7 +36,7 @@ english.object()
 
 You probably don't want to load all languages. So I suggest you to load specific files.
 
-```
+```js
 var englishCountries = require('localized-countries')(require('localized-countries/data/en'))
 englishCountries.get('US') // returns 'United States'
 ```
