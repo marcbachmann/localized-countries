@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/marcbachmann/localized-countries#readme",
   "devDependencies": {
-    "standard": "^7.1.2"
+    "standard": "^8.0.0"
   }
 }
