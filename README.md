@@ -1,4 +1,6 @@
 # localized-countries
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmarcbachmann%2Flocalized-countries.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmarcbachmann%2Flocalized-countries?ref=badge_shield)
+
 
 
 #### Get a language by code
@@ -40,3 +42,7 @@ You probably don't want to load all languages. So I suggest you to load specific
 var englishCountries = require('localized-countries')(require('localized-countries/data/en'))
 englishCountries.get('US') // returns 'United States'
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmarcbachmann%2Flocalized-countries.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmarcbachmann%2Flocalized-countries?ref=badge_large)
