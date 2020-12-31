@@ -8,7 +8,7 @@ function compose (countries) {
     )
   }
 
-  var list = Object.keys(countries).map(function (code) {
+  const list = Object.keys(countries).map(function (code) {
     return {code: code, label: countries[code]}
   })
 
