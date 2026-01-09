@@ -7,7 +7,7 @@ clone:
 
 steps:
 - name: eslint
-  image: marcbachmann/eslint:7.14.0
+  image: marcbachmann/eslint:9.1.1
   when: {event: [push]}
   depends_on: []
   environment:
@@ -30,6 +30,6 @@ trigger:
   event: [push]
 ---
 kind: signature
-hmac: 832b1983208921f26d969ba1fe8ba79f584fb1e55a7a2572aa0742ee9188221a
+hmac: 444a201fd452be57c705e99cdc788d5bf2fcba7d5d08955ea4453e9617d02407
 
 ...
