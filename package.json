@@ -5,7 +5,7 @@
   "main": "node.js",
   "browser": "browser.js",
   "scripts": {
-    "generate": "./bin/build.sh",
+    "generate": "node ./bin/build.js",
     "test": "node test.js && eslint .",
     "test:ci": "node test.js"
   },
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/marcbachmann/localized-countries#readme",
   "devDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^9.39.2"
   },
   "release": {
     "extends": "@livingdocs/semantic-release-presets/npm-github-verify"
